@@ -10,6 +10,6 @@ function getMax(arr) {
     var max = arr.reduce(function (a, b) {
         return Math.max(a, b);
     });
-    console.log(max);
+    console.log("O menor é:" + " " + max);
 }
 getMax([90, 900, 10, 700]);
